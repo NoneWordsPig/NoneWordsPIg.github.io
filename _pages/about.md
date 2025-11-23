@@ -6,3 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
+i wonder if LabTex could be use.
+\frac{\sqrt{3}}{3}

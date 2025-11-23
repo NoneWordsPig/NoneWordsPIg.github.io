@@ -13,7 +13,7 @@ redirect_from:
 [百度](http://m.baidu.com)
 
 [起点中文](https://chuangshi.qq.com/)
+[qq音乐](https://y.qq.com)
+[qq小说]()
 
 [聪明山](http://116.62.179.232)
-
-[qq音乐](https://y.qq.com)

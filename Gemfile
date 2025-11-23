@@ -2,8 +2,7 @@ source 'https://rubygems.org'
 
 gem 'wdm', '~> 0.1.0' if Gem.win_platform?
 
-gem 'listen','>= 3.2.1'
-gem 'liquid','>=4.0.3'
+gem "minima","~> 2.5"
 
 group :jekyll_plugins do
   gem 'jekyll'

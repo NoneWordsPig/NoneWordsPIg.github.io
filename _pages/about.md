@@ -17,3 +17,20 @@ redirect_from:
 [qq小说](https://book.qq.com/)
 
 [聪明山](http://116.62.179.232)
+
+style="border: none;">
+<template id="external-content">
+  <style>
+    :host { display: block; border: 1px solid #ddd; }
+  </style>
+  <iframe src="https://chat.deepseek.com" width="600"  height="600"></iframe>
+</template>
+
+<script>
+  customElements.define('external-page', class extends HTMLElement {
+    connectedCallback() {
+      const template = document.getElementById('external-content');
+      this.attachShadow({mode: 'open'}).appendChild(template.content.cloneNode(true));
+    }
+  });
+</script>
